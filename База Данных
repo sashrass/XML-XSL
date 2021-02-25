@@ -1,0 +1,60 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<Database>
+	<Locality>
+		<LocalityName> </LocalityName>
+		<LocalityPoints> 
+			<Point>
+				<Code> </Code>
+				<Address> </Address>
+				<AmountOfStaff> </AmountOfStaff>
+				<Staff>
+					<Person>
+						<Name> </Name>
+						<Profession> </Profession>
+						<Telephone> </Telephone>
+						<E-mail> </E-mail>
+					</Person>
+				</Staff>
+				<AddInfo> </AddInfo>
+				<Bids>
+					<BidInfo>
+						<Status>
+							<DeliveryDate> </DeliveryDate>
+						</Status>
+						<TrackCode> </TrackCode>
+						<StartAddress>
+							<StartPointName> </StartPointName>
+						</StartAddress>
+						<DestinationAddress>
+							<DestinationPointName> </DestinationPointName>
+						</DestinationAddress>
+						<Sender>
+							<Name> </Name>
+							<Telephone> </Telephone>
+							<E-mail> </E-mail>
+						</Sender>
+						<Recipient>
+							<Name> </Name>
+							<Telephone> </Telephone>
+							<E-mail> </E-mail>
+						</Recipient>
+						<Courier> </Courier>
+						<PackageInfo>
+							<Type> </Type>
+							<Weight> </Weight>
+							<Size>
+								<Length> </Length>
+								<Width> </Width>
+								<Height> </Height>
+							</Size>
+							<Fragility> </Fragility>
+						</PackageInfo>
+						<PaymentType> </PaymentType>
+						<AddInfo> </AddInfo>
+					</BidInfo>
+				</Bids>
+			</Point>
+		</LocalityPoints>
+	</Locality>
+</Database>
