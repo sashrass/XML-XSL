@@ -1,0 +1,38 @@
+<!ELEMENT FinalPoint (PointCode, Bids*)>
+<!ELEMENT PointCode (#PCDATA)>
+<!ELEMENT Bids (BidInfo)>
+<!ELEMENT BidInfo (Status, TrackCode, StartAddress, DestinationAddress, Route, Sender, Recipient, Courier, PackageInfo, PaymentType, AddInfo)>
+<!ELEMENT Status (DeliveryDate)>
+<!ELEMENT DeliveryDate (#PCDATA)>
+<!ELEMENT TrackCode (#PCDATA)>
+<!ELEMENT StartAddress (SenderAddress, StartPointAddress, StartPointCode)>
+<!ELEMENT SenderAddress (#PCDATA)>
+<!ELEMENT StartPointAddress (#PCDATA)>
+<!ELEMENT StartPointCode (#PCDATA)>
+<!ELEMENT DestinationAddress (DestinationPointAddress, DestinationPointCode)>
+<!ELEMENT DestinationPointAddress (#PCDATA)>
+<!ELEMENT DestinationPointCode (#PCDATA)>
+<!ELEMENT Route (BetweenPoint*)>
+<!ELEMENT BetweenPoint (Code, Address, IsArrived)>
+<!ELEMENT Code (#PCDATA)>
+<!ELEMENT Address (#PCDATA)>
+<!ELEMENT IsArrived (#PCDATA)>
+<!ELEMENT Sender (SenderName, SenderTelephone, SenderEmail)>
+<!ELEMENT SenderName (#PCDATA)>
+<!ELEMENT SenderTelephone (#PCDATA)>
+<!ELEMENT SenderEmail (#PCDATA)>
+<!ELEMENT Recipient (RecipientName, RecipientTelephone, RecipientEmail)>
+<!ELEMENT RecipientName (#PCDATA)>
+<!ELEMENT RecipientTelephone (#PCDATA)>
+<!ELEMENT RecipientEmail (#PCDATA)>
+<!ELEMENT Courier (#PCDATA)>
+<!ELEMENT PackageInfo (Type, Weight, Size, Fragility)>
+<!ELEMENT Type (#PCDATA)>
+<!ELEMENT Weight (#PCDATA)>
+<!ELEMENT Size (Length, Width, Height)>
+<!ELEMENT Length (#PCDATA)>
+<!ELEMENT Width (#PCDATA)>
+<!ELEMENT Height (#PCDATA)>
+<!ELEMENT Fragility (#PCDATA)>
+<!ELEMENT PaymentType (#PCDATA)>
+<!ELEMENT AddInfo (#PCDATA)>
