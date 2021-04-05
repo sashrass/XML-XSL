@@ -1,0 +1,55 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE FinalPoint SYSTEM "BidDTD">
+
+<FinalPoint>
+	<PointCode> </PointCode>
+	<Bids>
+			<BidInfo>
+				<Status>
+					<DeliveryDate> </DeliveryDate>
+				</Status>
+				<TrackCode> </TrackCode>
+				<StartAddress>
+					<SenderAddress> </SenderAddress>
+					<StartPointAddress> </StartPointAddress>
+					<StartPointCode> </StartPointCode>
+				</StartAddress>
+				<DestinationAddress>
+					<DestinationPointAddress> 
+					</DestinationPointAddress>
+					<DestinationPointCode> 
+					</DestinationPointCode>
+				</DestinationAddress>
+				<Route>
+					<BetweenPoint>
+						<Code> </Code>
+						<Address></Address>
+						<IsArrived></IsArrived>
+					</BetweenPoint>
+				</Route>
+				<Sender>
+					<SenderName> </SenderName>
+					<SenderTelephone> </SenderTelephone>
+					<SenderEmail> </SenderEmail>
+				</Sender>
+	    		<Recipient>
+					<RecipientName> </RecipientName>
+					<RecipientTelephone> </RecipientTelephone>
+					<RecipientEmail> </RecipientEmail>
+				</Recipient>
+				<Courier> </Courier>
+				<PackageInfo>
+					<Type> </Type>
+					<Weight> </Weight>
+					<Size>
+						<Length> </Length>
+						<Width> </Width>
+						<Height> </Height>
+					</Size>
+					<Fragility> </Fragility>
+				</PackageInfo>
+				<PaymentType> </PaymentType>
+				<AddInfo> </AddInfo>
+		</BidInfo>
+	</Bids>
+</FinalPoint>
